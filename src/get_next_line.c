@@ -11,8 +11,8 @@
 /* ************************************************************************** */
 
 #include <stdlib.h>
-#include "./libft/libft.h"
-#include "get_next_line.h"
+#include "../libft/inc/libft.h"
+#include "../inc/get_next_line.h"
 #include <unistd.h>
 
 static t_list		*get_current(t_list **list, const int fd)
