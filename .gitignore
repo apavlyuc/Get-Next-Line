@@ -1,0 +1,5 @@
+.*/
+libft/
+main.c
+*.exe
+*.a
