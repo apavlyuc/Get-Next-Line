@@ -20,5 +20,6 @@
 # define BREAKER(x) if (x) break;
 
 int			get_next_line(const int fd, char **line);
+int			new_get_next_line(const int fd, char **line);
 
 #endif

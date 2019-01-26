@@ -31,7 +31,7 @@ static t_list		*get_current(t_list **list, const int fd)
 	if (!(temp->content = ft_strnew(0)))
 		return (NULL);
 	temp->content_size = fd;
-	ft_lstadd(list, temp);
+	ft_lstadd_before(list, temp);
 	temp = *list;
 	return (temp);
 }
